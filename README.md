@@ -17,9 +17,9 @@ This project is a password generator webpage created from html/ css starter code
 
 ## Links
 
-Deployed Website: 
+Deployed Website: https://ndinson.github.io/password-generator/
 
-GitHub Code Repository: 
+GitHub Code Repository: https://github.com/ndinson/password-generator
 
 ## Installation
 
