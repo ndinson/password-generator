@@ -22,28 +22,28 @@ if (passwordLength > 128) {
   return;
 }
 
-    // TO DO: create prompt which confirms whether or not to include lower case characters 
+    // TO DO: create confirm which confirms whether or not to include lower case characters 
 
 var lowCase = confirm("Would you like your password to include lower case letters?");
 if (lowCase) {
   userChoice = userChoice.concat(lowerCase);
 }
 
-    // TO DO: create prompt which confirms whether or not to include upper case characters 
+    // TO DO: create confirm which confirms whether or not to include upper case characters 
 
 var upCase = confirm("Would you like your password to include upper case letters?");
 if (upCase) {
   userChoice = userChoice.concat(upperCase);
 }
 
-    // TO DO: create prompt which confirms whether or not to include numbers
+    // TO DO: create confirm which confirms whether or not to include numbers
 
 var num = confirm("Would you like your password to include numbers?");
 if (num) {
   userChoice = userChoice.concat(numbers);
 }
 
-    // TO DO: create prompt which confirms whether or not to include special characters 
+    // TO DO: create confirm which confirms whether or not to include special characters 
 var specialChar = confirm("Would you like your password to include special characters?");
 if (specialChar) {
   userChoice = userChoice.concat(specialCharacters);
@@ -60,7 +60,7 @@ for (var i = 0; i < passwordLength; i++) {
   // TO DO: if statement for user to select at least one choice
 
 if (userChoice.length ===0) {
-  alert("Must confirm at least one character type.")
+  alert("Must confirm at least one character type. Please try again.")
   return;
 }
 
