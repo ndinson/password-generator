@@ -2,7 +2,7 @@
 
 ## Description
 
-This project is a password generator webpage created from html/ css starter code with along with some javascript coding. The purpose of this application is to create a random password base off of the user's input and selected criteria.
+This project is a password generator webpage created from html/ css starter code along with some javascript coding. The purpose of this application is to create a random password base off of the user's input and selected criteria.
 
 
 ## Tasks Completed
@@ -31,7 +31,7 @@ The deployed application can be viewed through a desktop web browser. It is also
 
 The following image shows the up to date appearance and functionality of the Password Generator webpage:
 
-![Alt text]()
+![Alt text](assets/password-generator.png)
 
 ## Credits
 - Instructional Staff at the University of Minnesota Coding Bootcamp
